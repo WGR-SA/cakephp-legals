@@ -13,12 +13,12 @@
   },
   "autoload": {
     "psr-4": {
-      "WGR\\": "src"
+      "WGR\\Legals\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "WGR\\Test\\": "tests",
+      "WGR\\Legals\\Test\\": "tests",
       "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
     }
   }
