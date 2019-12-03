@@ -1,0 +1,25 @@
+{
+  "name": "wgr/cakephp-legals",
+  "description": "CakePHP legals plugins",
+  "type": "cakephp-plugin",
+  "require": {
+    "php": ">=5.5.9",
+    "cakephp/cakephp": "3.*",
+    "dereuromark/cakephp-queue": "3.*",
+    "3xw/attachment": "3.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Attachment\\ThirdParty\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Attachment\\ThirdParty\\Test\\": "tests",
+      "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+    }
+  }
+}
