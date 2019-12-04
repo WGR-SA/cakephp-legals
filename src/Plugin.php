@@ -1,5 +1,5 @@
 <?php
-namespace WGR\Legals;
+namespace Wgr\Legals;
 
 use Cake\Core\BasePlugin;
 use Cake\Core\PluginApplicationInterface;

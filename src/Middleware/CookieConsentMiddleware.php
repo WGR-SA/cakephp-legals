@@ -1,5 +1,5 @@
 <?php
-namespace WGR\Legals\Middleware;
+namespace Wgr\Legals\Middleware;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -50,7 +50,7 @@ class CookieConsentMiddleware
     $content = ''
     .substr($content, 0, $closingBodyTagPosition)
     //.view('cookieConsent::index')->render()
-    .'<h1>SCRIPT TAG</h1>'
+    .'<span class="d-none">ici</span>'
     .substr($content, $closingBodyTagPosition);
 
     $body = $response->getBody();
