@@ -50,7 +50,7 @@ class CookieConsentMiddleware
     $content = ''
     .substr($content, 0, $closingBodyTagPosition)
     //.view('cookieConsent::index')->render()
-    .'<span class="d-none">ici</span>'
+    .'<span class="d-none"></span>'
     .substr($content, $closingBodyTagPosition);
 
     $body = $response->getBody();
